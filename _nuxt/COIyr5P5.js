@@ -1,0 +1,1 @@
+var e=()=>({fallbackLocale:`en`,fallbackFormat:!0,missingWarn:!1,fallbackWarn:!1,messageResolver:(e,t)=>e[t]??null});export{e as default};

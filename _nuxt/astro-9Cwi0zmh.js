@@ -1,0 +1,1 @@
+export{default}from"./astro-BJU8IwXK.js";
