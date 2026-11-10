@@ -164,6 +164,9 @@
             frame.contentWindow.postMessage({ type: 'agent-chat:host', newTabUrl }, chatOrigin);
             render();
         }
+        else if (type === 'agent-chat:page-request') {
+            frame.contentWindow.postMessage({ type: 'agent-chat:page', id: event.data.id, url: location.href }, chatOrigin);
+        }
         else if (type === 'agent-chat:close') {
             state.open = false;
             saveState();
@@ -231,17 +234,20 @@
         saveState();
     });
 
-    window.addEventListener('resize', render);
+    function show(settings) {
+        if (settings?.enabled === false) {
+            return;
+        }
+        iconOnly = settings?.iconOnly === true;
+        document.head.append(pageShift);
+        document.body.append(host);
+        window.addEventListener('resize', render);
+        render();
+    }
 
-    document.head.append(pageShift);
-    document.body.append(host);
-    render();
-
+    // Shown only once the settings are known, so a widget switched off in the chat never flashes up.
     fetch(new URL('./api/overlay', document.currentScript?.src ?? chatUrl))
         .then(response => response.ok ? response.json() : null)
-        .then((settings) => {
-            iconOnly = settings?.iconOnly === true;
-            render();
-        })
-        .catch(() => {});
+        .catch(() => null)
+        .then(show);
 })();
