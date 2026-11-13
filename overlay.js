@@ -148,6 +148,10 @@
     let frame = null;
     let signInTried = false;
     let chatHasControls = false;
+
+    function sendHost() {
+        frame.contentWindow.postMessage({ type: 'agent-chat:host', newTabUrl }, chatOrigin);
+    }
     let iconOnly = false;
 
     window.addEventListener('message', (event) => {
@@ -161,7 +165,7 @@
         }
         else if (type === 'agent-chat:controls') {
             chatHasControls = true;
-            frame.contentWindow.postMessage({ type: 'agent-chat:host', newTabUrl }, chatOrigin);
+            sendHost();
             render();
         }
         else if (type === 'agent-chat:page-request') {
