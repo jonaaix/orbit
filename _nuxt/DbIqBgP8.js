@@ -1,0 +1,1 @@
+function e(e){return new Worker(new URL(`editor.worker-CX7Cj20z.js`,import.meta.url).href,{type:`module`,name:e?.name})}export{e as default};
