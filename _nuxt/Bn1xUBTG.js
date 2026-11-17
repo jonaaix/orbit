@@ -1,0 +1,1 @@
+import{V as e,m as t}from"./B2rqDRUA.js";import{t as n}from"./BDNMzG2s.js";var r={},i={class:`border-t border-default my-6`};function a(n,r){return e(),t(`hr`,i)}var o=Object.assign(n(r,[[`render`,a]]),{__name:`ProseHr`});export{o as default};

@@ -1,0 +1,1 @@
+import{G as e,V as t,m as n}from"./B2rqDRUA.js";import{t as r}from"./BDNMzG2s.js";var i={},a={class:`ps-1.5 [&>ul]:my-0 my-1 leading-6.5`};function o(r,i){return t(),n(`li`,a,[e(r.$slots,`default`)])}var s=Object.assign(r(i,[[`render`,o]]),{__name:`ProseLi`});export{s as default};

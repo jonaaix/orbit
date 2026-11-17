@@ -1,0 +1,1 @@
+import{G as e,V as t,m as n}from"./B2rqDRUA.js";import{t as r}from"./BDNMzG2s.js";var i={},a={class:`text-pretty my-3 leading-6.5`};function o(r,i){return t(),n(`p`,a,[e(r.$slots,`default`)])}var s=Object.assign(r(i,[[`render`,o]]),{__name:`ProseP`});export{s as default};

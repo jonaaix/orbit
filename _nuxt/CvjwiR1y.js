@@ -1,0 +1,1 @@
+import{G as e,V as t,m as n}from"./B2rqDRUA.js";import{t as r}from"./BDNMzG2s.js";var i={},a={class:`list-disc ps-6 marker:text-(--ui-border-accented) my-3`};function o(r,i){return t(),n(`ul`,a,[e(r.$slots,`default`)])}var s=Object.assign(r(i,[[`render`,o]]),{__name:`ProseUl`});export{s as default};

@@ -1,0 +1,1 @@
+import{G as e,V as t,m as n}from"./B2rqDRUA.js";import{t as r}from"./BDNMzG2s.js";var i={},a={class:`text-highlighted scroll-mt-[calc(45px+var(--ui-header-height))] lg:scroll-mt-(--ui-header-height) mt-6 mb-3 text-xl font-semibold`};function o(r,i){return t(),n(`h1`,a,[e(r.$slots,`default`)])}var s=Object.assign(r(i,[[`render`,o]]),{__name:`ProseH1`});export{s as default};

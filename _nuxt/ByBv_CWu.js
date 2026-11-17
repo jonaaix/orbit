@@ -1,0 +1,1 @@
+import{G as e,V as t,m as n}from"./B2rqDRUA.js";import{t as r}from"./BDNMzG2s.js";var i={},a={class:`font-semibold text-sm border-e border-b first:border-s border-t border-muted px-3 py-2 text-start`};function o(r,i){return t(),n(`th`,a,[e(r.$slots,`default`)])}var s=Object.assign(r(i,[[`render`,o]]),{__name:`ProseTh`});export{s as default};

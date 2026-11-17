@@ -1,0 +1,1 @@
+import{G as e,V as t,m as n}from"./B2rqDRUA.js";import{t as r}from"./BDNMzG2s.js";var i={},a={class:`border-s-4 border-accented ps-4 italic my-3`};function o(r,i){return t(),n(`blockquote`,a,[e(r.$slots,`default`)])}var s=Object.assign(r(i,[[`render`,o]]),{__name:`ProseBlockquote`});export{s as default};
