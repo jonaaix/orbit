@@ -1,0 +1,1 @@
+import{n as e}from"./BmuXzB7S.js";import{$ as t}from"./DmLeCQDr.js";import{u as n}from"./B2rqDRUA.js";import{_ as r,g as i}from"./BEUFT47S.js";function a(){let{agents:r}=e(),{names:i}=t();return n(()=>[...r.value.map(e=>e.name),...Object.values(i.value)].sort())}function o(){let e=a();return[...i,r(()=>e.value)]}export{a as n,o as t};
