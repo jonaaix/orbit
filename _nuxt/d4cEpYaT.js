@@ -1,1 +1,0 @@
-import{H as e,O as t,u as n}from"./B2rqDRUA.js";var r=Symbol(`islands-form-field`);function i(t){e(r,t)}function a(e){let i=t(r,null);return n(()=>i?{id:e.id??i.id,"aria-describedby":e[`aria-describedby`]??i.describedBy.value,"aria-invalid":i.invalid.value||void 0}:{})}export{a as n,i as t};
