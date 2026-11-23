@@ -1,0 +1,1 @@
+export{default}from"./astro-BdtA362m.js";
